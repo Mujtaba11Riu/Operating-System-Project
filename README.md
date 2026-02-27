@@ -11,9 +11,9 @@
 
 ## 📌 Overview
 
-Most security tools only **collect data** — this tool **analyzes it**.
+Most security tools only **collect data**  this tool **analyzes it**.
 
-The Security Threat Analyzer takes your system's service configuration, identifies threats using the **STRIDE model**, scores each threat using the **DREAD model**, matches them against real **CVE vulnerabilities** from the NIST database, and generates a **professional PDF report** — all from a clean dark-themed GUI.
+The Security Threat Analyzer takes your system's service configuration, identifies threats using the **STRIDE model**, scores each threat using the **DREAD model**, matches them against real **CVE vulnerabilities** from the NIST database, and generates a **professional PDF report** all from a clean dark-themed GUI.
 
 ---
 
