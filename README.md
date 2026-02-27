@@ -1,4 +1,4 @@
-# 🔒 Security Threat Analyzer
+# Security Threat Analyzer
 
 > A Python-based desktop application for automated security threat assessment using **STRIDE** & **DREAD** threat modeling frameworks with real-world **CVE** vulnerability lookup and PDF report generation.
 
@@ -9,46 +9,46 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
-Most security tools only **collect data**  this tool **analyzes it**.
+Most security tools only **collect data** — this tool **analyzes it**.
 
-The Security Threat Analyzer takes your system's service configuration, identifies threats using the **STRIDE model**, scores each threat using the **DREAD model**, matches them against real **CVE vulnerabilities** from the NIST database, and generates a **professional PDF report** all from a clean dark-themed GUI.
+The Security Threat Analyzer takes your system's service configuration, identifies threats using the **STRIDE model**, scores each threat using the **DREAD model**, matches them against real **CVE vulnerabilities** from the NIST database, and generates a **professional PDF report** — all from a clean dark-themed GUI.
 
 ---
 
-## ⚡ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| 🛡️ STRIDE Analysis | Automatically identifies threats across 6 categories |
-| 📊 DREAD Scoring | Scores each threat across 5 risk factors (1–10 scale) |
-| 🔍 CVE Lookup | Real-time vulnerability data from NIST NVD API |
-| 📄 PDF Reports | Professional downloadable security assessment reports |
-| 🖥️ GUI Interface | Clean dark-themed desktop interface built with Tkinter |
-| 📦 Offline Mode | Falls back to cached CVE data when internet is unavailable |
+| STRIDE Analysis | Automatically identifies threats across 6 categories |
+| DREAD Scoring | Scores each threat across 5 risk factors (1–10 scale) |
+| CVE Lookup | Real-time vulnerability data from NIST NVD API |
+| PDF Reports | Professional downloadable security assessment reports |
+| GUI Interface | Clean dark-themed desktop interface built with Tkinter |
+| Offline Mode | Falls back to cached CVE data when internet is unavailable |
 
 ---
 
-## 🧠 Workflow
+## Workflow
 ```
 Nmap Scan  →  Identify Running Services
-                      ↓
+                      |
          Input Services into Tool
          (Services + Auth + Encryption)
-                      ↓
+                      |
         STRIDE  →  Identify Threat Categories
-                      ↓
-        DREAD   →  Score Each Threat (1–10)
-                      ↓
+                      |
+        DREAD   →  Score Each Threat (1-10)
+                      |
         CVE     →  Match Real-World Vulnerabilities
-                      ↓
-        PDF Report  →  Professional Output ✅
+                      |
+        PDF Report  →  Professional Output
 ```
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -69,37 +69,37 @@ python main.py
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 ```
 security_threat_analyzer/
-├── main.py                         ← Entry point
-├── requirements.txt                ← Dependencies
+├── main.py                         <- Entry point
+├── requirements.txt                <- Dependencies
 ├── gui/
-│   ├── main_window.py              ← Main GUI window
-│   ├── input_panel.py              ← User input forms
-│   └── results_panel.py            ← Results display
+│   ├── main_window.py              <- Main GUI window
+│   ├── input_panel.py              <- User input forms
+│   └── results_panel.py            <- Results display
 ├── modules/
 │   ├── stride/
-│   │   ├── stride_analyzer.py      ← STRIDE logic
-│   │   └── threat_rules.py         ← Threat rules & conditions
+│   │   ├── stride_analyzer.py      <- STRIDE logic
+│   │   └── threat_rules.py         <- Threat rules & conditions
 │   ├── dread/
-│   │   ├── dread_scorer.py         ← DREAD scoring logic
-│   │   └── risk_calculator.py      ← Risk level calculator
+│   │   ├── dread_scorer.py         <- DREAD scoring logic
+│   │   └── risk_calculator.py      <- Risk level calculator
 │   ├── cve/
-│   │   ├── cve_lookup.py           ← NIST NVD API integration
-│   │   └── cve_parser.py           ← API response parser
+│   │   ├── cve_lookup.py           <- NIST NVD API integration
+│   │   └── cve_parser.py           <- API response parser
 │   └── report/
-│       ├── report_generator.py     ← Report data collector
-│       └── pdf_exporter.py         ← PDF file generator
+│       ├── report_generator.py     <- Report data collector
+│       └── pdf_exporter.py         <- PDF file generator
 ├── data/
-│   └── cve_cache.json              ← Offline CVE cache
+│   └── cve_cache.json              <- Offline CVE cache
 └── outputs/
-    └── reports/                    ← Generated PDF reports saved here
+    └── reports/                    <- Generated PDF reports saved here
 ```
 
 ---
 
-## 🔬 Real World Usage
+## Real World Usage
 ```bash
 # Step 1 — Scan your target with Nmap
 nmap -sV target.com
@@ -117,24 +117,24 @@ nmap -sV target.com
 
 ---
 
-## 📊 Sample Report Output
+## Sample Report Output
 ```
 Overall Risk: HIGH (7.5/10)
 
 STRIDE Threats Identified:
-▶ Spoofing                —  HIGH      (7.2/10)
-▶ Information Disclosure  —  CRITICAL  (8.6/10)
-▶ Tampering               —  HIGH      (7.0/10)
-▶ Elevation of Privilege  —  HIGH      (7.2/10)
+  Spoofing                —  HIGH      (7.2/10)
+  Information Disclosure  —  CRITICAL  (8.6/10)
+  Tampering               —  HIGH      (7.0/10)
+  Elevation of Privilege  —  HIGH      (7.2/10)
 
 CVE Matches:
-▶ CVE-1999-0082   FTP root access vulnerability       [Score: 10.0]
-▶ CVE-2021-41773  Apache HTTP path traversal attack   [Score: 9.8]
+  CVE-1999-0082   FTP root access vulnerability       [Score: 10.0]
+  CVE-2021-41773  Apache HTTP path traversal attack   [Score:  9.8]
 ```
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 | Library | Purpose |
 |---------|---------|
@@ -147,32 +147,30 @@ CVE Matches:
 
 ---
 
-## 👨‍🏫 Supervisor
+## Supervisor
 
 **Syed Yawar Abbas Zaidi**
-- 🏫 Lecturer — Faculty of Computing (FC)
-- 🎓 Riphah International University Islamabad
-- 📚 MS Information Security — COMSATS University Islamabad
-- 🔗 [Faculty Profile](https://riphah.edu.pk/faculty/profile/?id=8142)
-- 📖 [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=zA_3q_QAAAAJ)
+- Lecturer, Faculty of Computing (FC)
+- Riphah International University Islamabad
+- MS Information Security — COMSATS University Islamabad
+- [Faculty Profile](https://riphah.edu.pk/faculty/profile/?id=8142)
+- [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=zA_3q_QAAAAJ)
 
 ---
 
-
-
-## 👨‍💻 Author
+## Author
 
 **Syed Mujtaba Zaidi**
-- 🎓 BS Cyber Security — Riphah International University Islamabad
-- 🌍 HackerDNA Global Rank: **#95**
-- 🇵🇰 HackViser Pakistan Rank: **#20**
-- 🔗 [Portfolio](https://mujtaba11riu.github.io/Portfolio1.1/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/syedmujtaba773/)
-- 🐙 [GitHub](https://github.com/Mujtaba11Riu)
+- BS Cyber Security — Riphah International University Islamabad
+- HackerDNA Global Rank: **#95**
+- HackViser Pakistan Rank: **#20**
+- [Portfolio](https://mujtaba11riu.github.io/Portfolio1.1/)
+- [LinkedIn](https://www.linkedin.com/in/syedmujtaba773/)
+- [GitHub](https://github.com/Mujtaba11Riu)
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 
