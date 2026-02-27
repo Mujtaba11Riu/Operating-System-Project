@@ -147,6 +147,19 @@ CVE Matches:
 
 ---
 
+## 👨‍🏫 Supervisor
+
+**Syed Yawar Abbas Zaidi**
+- 🏫 Lecturer — Faculty of Computing (FC)
+- 🎓 Riphah International University Islamabad
+- 📚 MS Information Security — COMSATS University Islamabad
+- 🔗 [Faculty Profile](https://riphah.edu.pk/faculty/profile/?id=8142)
+- 📖 [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=zA_3q_QAAAAJ)
+
+---
+
+
+
 ## 👨‍💻 Author
 
 **Syed Mujtaba Zaidi**
