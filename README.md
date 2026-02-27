@@ -1,4 +1,4 @@
-# Security Threat Analyzer
+# 🔒 Security Threat Analyzer
 
 > A Python-based desktop application for automated security threat assessment using **STRIDE** & **DREAD** threat modeling frameworks with real-world **CVE** vulnerability lookup and PDF report generation.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## Overview
+## 📌 Overview
 
 Most security tools only **collect data** — this tool **analyzes it**.
 
@@ -17,7 +17,7 @@ The Security Threat Analyzer takes your system's service configuration, identifi
 
 ---
 
-## Features
+## ⚡ Features
 
 | Feature | Description |
 |---------|-------------|
@@ -30,7 +30,7 @@ The Security Threat Analyzer takes your system's service configuration, identifi
 
 ---
 
-## Workflow
+## 🧠 Workflow
 ```
 Nmap Scan  →  Identify Running Services
                       |
@@ -48,7 +48,7 @@ Nmap Scan  →  Identify Running Services
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -69,7 +69,7 @@ python main.py
 
 ---
 
-## Project Structure
+## 🗂️  Project Structure
 ```
 security_threat_analyzer/
 ├── main.py                         <- Entry point
@@ -99,7 +99,7 @@ security_threat_analyzer/
 
 ---
 
-## Real World Usage
+## 🔬  Real World Usage
 ```bash
 # Step 1 — Scan your target with Nmap
 nmap -sV target.com
@@ -117,7 +117,7 @@ nmap -sV target.com
 
 ---
 
-## Sample Report Output
+## 📊 Sample Report Output
 ```
 Overall Risk: HIGH (7.5/10)
 
@@ -134,7 +134,7 @@ CVE Matches:
 
 ---
 
-## Built With
+## 🛠️ Built With
 
 | Library | Purpose |
 |---------|---------|
@@ -147,7 +147,7 @@ CVE Matches:
 
 ---
 
-## Supervisor
+## 👨‍🏫  Supervisor
 
 **Syed Yawar Abbas Zaidi**
 - Lecturer, Faculty of Computing (FC)
@@ -158,7 +158,7 @@ CVE Matches:
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Syed Mujtaba Zaidi**
 - BS Cyber Security — Riphah International University Islamabad
@@ -170,7 +170,7 @@ CVE Matches:
 
 ---
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License.
 
