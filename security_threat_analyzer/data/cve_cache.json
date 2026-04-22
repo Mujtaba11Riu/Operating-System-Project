@@ -1,0 +1,82 @@
+{
+  "FTP": [
+    {
+      "id": "CVE-1999-0082",
+      "description": "CWD ~root command in ftpd allows root access.",
+      "severity": "HIGH",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-1999-1090",
+      "description": "The default configuration of NCSA Telnet package for Macintosh and PC enables FTP, even though it does not include an \"ftp=yes\" line, which allows rem...",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-1999-1119",
+      "description": "FTP installation script anon.ftp in AIX insecurely configures anonymous FTP, which allows remote attackers to execute arbitrary commands.",
+      "severity": "HIGH",
+      "score": 10.0
+    }
+  ],
+  "TELNET": [
+    {
+      "id": "CVE-1999-1090",
+      "description": "The default configuration of NCSA Telnet package for Macintosh and PC enables FTP, even though it does not include an \"ftp=yes\" line, which allows rem...",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-1999-1098",
+      "description": "Vulnerability in BSD Telnet client with encryption and Kerberos 4 authentication allows remote attackers to decrypt the session via sniffing.",
+      "severity": "MEDIUM",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-1999-0073",
+      "description": "Telnet allows a remote client to specify environment variables including LD_LIBRARY_PATH, allowing an attacker to bypass the normal system libraries a...",
+      "severity": "HIGH",
+      "score": 10.0
+    }
+  ],
+  "HTTP": [
+    {
+      "id": "CVE-1999-0236",
+      "description": "ScriptAlias directory in NCSA and Apache httpd allowed attackers to read CGI programs.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-1999-1068",
+      "description": "Oracle Webserver 2.1, when serving PL/SQL stored procedures, allows remote attackers to cause a denial of service via a long HTTP GET request.",
+      "severity": "MEDIUM",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-1999-0071",
+      "description": "Apache httpd cookie buffer overflow for versions 1.1.1 and earlier.",
+      "severity": "HIGH",
+      "score": 7.5
+    }
+  ],
+  "HTTPS": [
+    {
+      "id": "CVE-1999-1537",
+      "description": "IIS 3.x and 4.x does not distinguish between pages requiring encryption and those that do not, which allows remote attackers to cause a denial of serv...",
+      "severity": "MEDIUM",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2000-0539",
+      "description": "Servlet examples in Allaire JRun 2.3.x allow remote attackers to obtain sensitive information, e.g. listing HttpSession ID's via the SessionServlet se...",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2000-0739",
+      "description": "Directory traversal vulnerability in strong.exe program in NAI Net Tools PKI server 1.0 before HotFix 3 allows remote attackers to read arbitrary file...",
+      "severity": "MEDIUM",
+      "score": 5.0
+    }
+  ]
+}
